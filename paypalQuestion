@@ -1,0 +1,55 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Main started...")
+	// paypal interview question
+	// input
+	// str1 : Hello
+	// str2 : World
+	// output
+	// HWeolrldod
+	// input 2
+	// str1 : abc
+	// str2 : ABC
+	// output
+	// aAbBcC
+
+	var s1 = "Hello"
+	var s2 = "World"
+
+	solve(s1, s2)
+
+	s1 = "abc"
+	s2 = "ABC"
+
+	solve(s1, s2)
+
+	s1 = "hello"
+	s2 = "world!!!"
+
+	solve(s1, s2)
+
+	fmt.Println("Main finished...")
+
+}
+
+func solve(s1, s2 string) {
+	var minLen int
+
+	if len(s1) < len(s2) {
+		minLen = len(s1)
+	} else {
+		minLen = len(s2)
+	}
+	var result string
+	for i := 0; i < minLen; i++ {
+		result = result + string(s1[i])
+		result = result + string(s2[i])
+	}
+
+	fmt.Println(result)
+}
