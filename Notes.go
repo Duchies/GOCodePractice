@@ -18,3 +18,15 @@ func join(strs ...string) string {
 
 point 3)
 
+i, err := strconv.Atoi("-42")
+s := strconv.Itoa(-42)
+
+# the strings package
+s := "hello world"
+strings.Contains(s, "wo")   // true
+strings.Split(s, " ")       // ["hello", "world"]
+strings.ToUpper(s)          // "HELLO WORLD"
+strings.ToLower(s)          // "hello world"
+strings.TrimSpace("  hi ")  // "hi"
+strings.ReplaceAll(s, "l", "L") // "heLLo worLd"
+	
