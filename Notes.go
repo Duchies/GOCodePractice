@@ -30,3 +30,11 @@ strings.ToLower(s)          // "hello world"
 strings.TrimSpace("  hi ")  // "hi"
 strings.ReplaceAll(s, "l", "L") // "heLLo worLd"
 	
+
+point 4)
+
+result = append(result, list[itr++])  // ❌ Invalid in Go
+
+In Go, the itr++ syntax is called a statement, not an expression.
+A statement does something, like itr++ (it increases itr).
+An expression returns a value that you can use, like list[itr++] in Java or C.
