@@ -46,6 +46,12 @@ func main() {
 }
 
 
+point ) 
+
+ m := make(map[int]*int)
+  a := 1
+  m[1] = &a
+fmt.Printf("%T",m) // %T helps to identify the any type it can identify int,chan, string etc.
 
 point 5)
 
