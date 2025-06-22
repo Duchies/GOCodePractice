@@ -1,3 +1,10 @@
+Point1 )
+Topic : Golang's sync.Once: Practical Examples
+https://cristiancurteanu.com/understanding-go-sync-once/
+
+
+
+Point2 )
 question on below code : how it will give error because each time we are adding different key in map
 package main
 
