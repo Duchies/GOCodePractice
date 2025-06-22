@@ -2,9 +2,12 @@ Point1 )
 Topic : Golang's sync.Once: Practical Examples
 https://cristiancurteanu.com/understanding-go-sync-once/
 
+Point 2 )
+sync/atomic Package in Go
+https://www.codingexplorations.com/blog/understanding-and-using-the-syncatomic-package-in-go
 
-
-Point2 )
+Point3 )
+sync map : chatGPT stuff 
 question on below code : how it will give error because each time we are adding different key in map
 package main
 
