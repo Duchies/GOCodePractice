@@ -62,3 +62,6 @@ A statement does something, like itr++ (it increases itr).
 An expression returns a value that you can use, like list[itr++] in Java or C.
 
 
+# Rune byte string
+in Go, a string is a sequence of bytes, not characters (runes). Each element accessed by indexing (str[i]) is a byte (uint8).
+ However, when you use a for...range loop, Go automatically decodes the UTF-8 encoded bytes into runes (Unicode code points).
