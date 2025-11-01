@@ -13,6 +13,21 @@ func main() {
 	sort.Strings(strs)
 	fmt.Println("Sorted strings: ", strs)
 
+
+	// Sorting a slice of Strings
+	strs = []string{"z", "aa", "a", "aa"}
+	sort.Strings(strs)
+	fmt.Println("Sorted strings: Part 2  ", strs)
+
+	/*
+	output 
+		Sorted strings:  [brown fox jumps quick]
+		Sorted strings: Part 2   [a aa aa z]
+		Sorted integers:  [14 19 25 56 67 78]
+		Sorted floats:  [19.5 20.8 57.4 176.8]
+		[Stable] Sorted strings by length:  [India Spain France United States United Kingdom]
+	*/
+
 	// Sorting a slice of Integers
 	ints := []int{56, 19, 78, 67, 14, 25}
 	sort.Ints(ints)
